@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    background: linear-gradient(130deg, #eb3001, #8701a5);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.container .left{
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .right{
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.current{
+    height: 120px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #eb30014b;
+    padding: 0px 60px;
+    color: white;
+}
+
+.container .right .top {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.container .left .top {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.container .right .top p{
+    font-size: 50px;
+    color:#b32a81 ;
+    font-weight: 700;
+}
+
+.container .left .top p{
+    font-size: 50px;
+    color:#b32a81;
+    font-weight: 700;
+}
+
+.new{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: larger;
+    top: 40px;
+    left: 400px;
+    
+}
+i{
+    padding: 0px 10px ;
+    
+}
+.container img{
+    width: 100px;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    box-shadow: 2px 2px 20px 2px  rgba(0, 0, 0, 0.5);
+}
+.roll{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: larger;
+    top: 400px;
+    left: 390px;
+}
+
+.hold{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: larger;
+    top: 470px;
+    left: 415px;
+}
